@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-19T18:07:39.122Z",
+        "line": 3,
+        "name": "Basic Auth verification",
+        "description": "",
+        "id": "file-download;basic-auth-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4427000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on cybertek practice webpage",
+            "match": {
+              "location": "com.Cybertek.stepDefinitions.PracticeStepDefinitions.userisoncybertekpracticewebpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on file download link",
+            "match": {
+              "location": "com.Cybertek.stepDefinitions.PracticeStepDefinitions.userClickOnFileDownloadLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on file download",
+            "match": {
+              "location": "com.Cybertek.stepDefinitions.PracticeStepDefinitions.userClicksOnFileDownload()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "file download",
+    "description": "  User should be able to click on file download and enter",
+    "id": "file-download",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestAutomation.feature",
+    "tags": []
+  }
+]
